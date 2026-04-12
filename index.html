@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Conduit Lab -- AI Tools for Professional Niches</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='16' fill='%230a0a0a'/><text y='.9em' font-size='62' font-family='Georgia,serif' font-weight='bold' fill='%23f97316' x='50' text-anchor='middle' dominant-baseline='auto' dy='28'>CC</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
@@ -70,6 +71,8 @@
     .pillar-text span { font-size:0.82rem; color:var(--muted); font-weight:300; }
     .stats-strip { background:var(--surface); border-top:1px solid var(--border); border-bottom:1px solid var(--border); padding:48px; }
     .stats-inner { max-width:1100px; margin:0 auto; display:grid; grid-template-columns:repeat(3,1fr); gap:32px; text-align:center; }
+    .stats-header { grid-column:1 / -1; margin-bottom:8px; }
+    .stats-eyebrow { font-size:0.72rem; font-weight:600; text-transform:uppercase; letter-spacing:0.12em; color:var(--dim); }
     .stat-value { font-family:'DM Serif Display',serif; font-size:2.8rem; color:var(--white); letter-spacing:-0.03em; line-height:1; margin-bottom:6px; }
     .stat-value em { font-style:normal; color:var(--silver); font-size:0.6em; }
     .stat-label { font-size:0.78rem; color:var(--muted); font-weight:300; letter-spacing:0.02em; }
@@ -131,6 +134,9 @@
 
 <div class="stats-strip">
   <div class="stats-inner">
+    <div class="stats-header reveal">
+      <div class="stats-eyebrow">ClauseCheck &mdash; our flagship product</div>
+    </div>
     <div class="reveal"><div class="stat-value">60<em>s</em></div><div class="stat-label">Average contract review time</div></div>
     <div class="reveal" style="transition-delay:0.1s"><div class="stat-value">$20<em>/mo</em></div><div class="stat-label">Starting price &mdash; no enterprise contracts</div></div>
     <div class="reveal" style="transition-delay:0.2s"><div class="stat-value">10<em>x</em></div><div class="stat-label">Less than leading alternatives</div></div>
