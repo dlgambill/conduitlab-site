@@ -236,7 +236,7 @@
 
   // Contact form - posts to Formspree (free tier: 50 submissions/month)
   // Replace YOUR_FORM_ID below after signing up at formspree.io
-  const FORMSPREE_ID = 'YOUR_FORM_ID';
+  const FORMSPREE_ID = 'mrejypjb';
 
   document.getElementById('contact-form').addEventListener('submit', async (e) => {
     e.preventDefault();
@@ -272,7 +272,7 @@
       status.className = 'form-status error';
       status.textContent = 'Something went wrong. Please email us directly at legal [at] conduitlab.ai';
       status.style.display = 'block';
-      btn.textContent = 'Send message &rarr;';
+      btn.textContent = 'Send message →';
       btn.disabled = false;
     }
   });
